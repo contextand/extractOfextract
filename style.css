@@ -73,4 +73,18 @@ li {
 .list_view .list .text {
   font-size: 14px;
   cursor: zoom-in;
+}
+
+@media only screen and (max-width: 500px) {
+  .text_view .text_wrap {
+    top: 40px;
+    padding: 20px;
+    width: 55%;
+  }
+  .text_view .text_wrap p {
+    font-size: 24px;
+  }
+  .list_view {
+    padding-left: 65%;
+  }
 }/*# sourceMappingURL=style.css.map */

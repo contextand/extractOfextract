@@ -54,7 +54,6 @@ li {
       font-size: 40px;
       font-weight: 400;
       line-height: 1.6;
-      // letter-spacing: -3px;
     }
   }
 }
@@ -74,5 +73,21 @@ li {
       cursor: zoom-in;
       // background-color: yellow;
     }
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .text_view .text_wrap {
+    top: 40px;
+    padding: 20px;
+    width: 55%;
+  }
+
+  .text_view .text_wrap p {
+    font-size: 24px;
+  }
+
+  .list_view {
+    padding-left: 65%;
   }
 }
