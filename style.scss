@@ -26,7 +26,7 @@ li {
   justify-content: space-between;
   padding: 16px 24px;
   font-size: 14px;
-  font-weight: 900;
+  font-weight: 400;
   border-bottom: 1px solid #444;
   z-index: 999;
   .menu {
@@ -66,18 +66,22 @@ li {
     border-bottom: 1px solid #444;
     border-left: 1px solid #444;
     line-height: 1.7;
-    font-weight: 900;
+    font-weight: 400;
     word-break: keep-all;
     .text {
       font-size: 14px;
       cursor: zoom-in;
+      &:hover {
+        color: #000;
+        font-weight: 900;
+      }
     }
   }
 }
 
 @media only screen and (max-width: 500px) {
   .text_view .text_wrap {
-    top: 40px;
+    top: 44px;
     padding: 20px;
     width: 55%;
   }
