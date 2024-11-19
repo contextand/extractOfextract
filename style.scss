@@ -67,13 +67,18 @@ li {
     border-left: 1px solid #444;
     line-height: 1.7;
     font-weight: 400;
-    word-break: keep-all;
+    // word-break: keep-all;
     .text {
       font-size: 14px;
       cursor: zoom-in;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      white-space: nowrap;
       &:hover {
-        color: #000;
+        color: #222;
         font-weight: 900;
+        transform: translateX(10px);
+        transition-duration: 0.5s;
       }
     }
   }
