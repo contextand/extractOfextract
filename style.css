@@ -30,6 +30,9 @@ li {
   border-bottom: 1px solid #444;
   z-index: 999;
 }
+.header .logo {
+  cursor: pointer;
+}
 .header .menu {
   cursor: pointer;
   display: flex;
@@ -93,6 +96,7 @@ li {
   }
   .text_view .text_wrap p {
     font-size: 24px;
+    color: #333;
   }
   .list_view {
     padding-left: 65%;

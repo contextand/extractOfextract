@@ -29,6 +29,9 @@ li {
   font-weight: 400;
   border-bottom: 1px solid #444;
   z-index: 999;
+  .logo {
+    cursor: pointer;
+  }
   .menu {
     cursor: pointer;
     display: flex;
@@ -67,7 +70,6 @@ li {
     border-left: 1px solid #444;
     line-height: 1.7;
     font-weight: 400;
-    // word-break: keep-all;
     .text {
       font-size: 14px;
       cursor: zoom-in;
@@ -95,6 +97,7 @@ li {
 
   .text_view .text_wrap p {
     font-size: 24px;
+    color: #333;
   }
 
   .list_view {
