@@ -120,4 +120,10 @@ li {
   .list_view {
     padding-left: 65%;
   }
+}
+@media only screen and (max-width: 500px) {
+  .text_view .text_wrap.intro_wrap p {
+    width: 95%;
+    line-height: 1.6;
+  }
 }/*# sourceMappingURL=style.css.map */
