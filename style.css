@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body,
 p,
 ul,
@@ -5,6 +6,11 @@ li {
   margin: 0;
   padding: 0;
   color: #444;
+}
+
+a {
+  text-decoration: none; /* 밑줄 제거 */
+  color: inherit; /* 부모 요소의 색상 상속 */
 }
 
 body {
@@ -51,6 +57,7 @@ li {
   top: 32px;
   left: 0;
   right: 0;
+  bottom: 0;
   width: 55%;
   padding: 40px;
 }
@@ -59,6 +66,15 @@ li {
   font-size: 40px;
   font-weight: 400;
   line-height: 1.6;
+}
+.text_view .text_wrap.intro_wrap {
+  width: 60%;
+}
+.text_view .text_wrap.intro_wrap p {
+  word-break: keep-all;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.9;
 }
 
 .list_view {
@@ -86,13 +102,16 @@ li {
   transition-duration: 0.5s;
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 1200px) {
   .text_view .text_wrap {
     top: 44px;
     bottom: 0;
     overflow: auto;
     padding: 20px;
     width: 55%;
+  }
+  .text_view .text_wrap.intro_wrap {
+    width: 95%;
   }
   .text_view .text_wrap p {
     font-size: 24px;
